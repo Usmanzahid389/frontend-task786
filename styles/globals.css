@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: "Lato", sans-serif;
+}
+
+
+.TableScroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.TableScroll::-webkit-scrollbar-thumb {
+  background: #BE9F56;
+  border-radius: 20px;
+}
+
+.TableScroll::-webkit-scrollbar-track {
+  border-radius: 20px;
+  border: 1px solid #BE9F56;
+  background-color: transparent;
+}
